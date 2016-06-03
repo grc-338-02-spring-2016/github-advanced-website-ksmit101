@@ -1,5 +1,6 @@
 body{
     font-size: 18px;
+
     
 }
 
@@ -8,21 +9,22 @@ body{
     content: "";
     clear: both;
     display: block;
+   
 }
 
 
 /*Selects column size based on device width*/
 [class*="col-"] {
-    float:;
     padding: .5em;
-    
+
 }
 
 img {
     display: block;
-    max-width: 100%;
+    max-width: 80%;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 3em;
 }
 
 h1 {
@@ -38,14 +40,15 @@ h1 {
 h3 {
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 200;
-    font-size: 125%;
+    font-size: 1.4em;
     text-align: center;
-    padding: 1% 0 1% 0;
+    padding: .5em 0 0 4em;
 }
 
 p {
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 100%;
+    font-size: 1.2em;
+    line-height: inherit;
     margin: 1em 2em 1em 2em;
 
 }
@@ -55,11 +58,20 @@ section{
     
 }
 .footer {
-    background-color:#706f7e;
-    color: #c8eda2;
+    color: darkcyan;
     text-align: center;
     font-size: 1.5em;
     padding: .1em 0 .5em 0;
+
+    bottom: 0;
+    
+}
+
+.contact {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.4em;
+    margin-top: 2em;
+    
     
 }
 
@@ -140,14 +152,14 @@ section{
 @media only screen and (min-width: 768px) {
    
     .col-t-1 {width: 8.33%;}
-    .col-t-2 {width: 16.66%;}
-    .col-t-3 {width: 100%;}
+    .col-t-2 {width: 75%;}
+    .col-t-3 {width: 25%;}
     .col-t-4 {width: 33.33%;}
     .col-t-5 {width: 41.66%;}
     .col-t-6 {width: 50%;}
     .col-t-7 {width: 58.33%;}
     .col-t-8 {width: 66.66%;}
-    .col-t-9 {width: 80%;}
+    .col-t-9 {width: 75%;}
     .col-t-10 {width: 83.33%;}
     .col-t-11 {width: 91.66%;}
     .col-t-12 {width: 100%;}
@@ -157,7 +169,7 @@ section{
 @media only screen and (min-width: 1024px) {
     
     .col-1 {width: 8.33%;}
-    .col-2 {width: 100%;}
+    .col-2 {width: 75%;}
     .col-3 {width: 25%;}
     .col-4 {width: 33.33%;}
     .col-5 {width: 41.66%;}
@@ -176,6 +188,9 @@ section{
         font-size: 2.8em;
     }
     
+    .col-t-2 {
+        height: 7em;
+    }
     .col-t-3 {
         height: 4em;
         text-align: center;
@@ -183,6 +198,7 @@ section{
     
     .col-t-4 {
         height: 4em;
+    
     }
     .responsive-menu{
         display: block;
@@ -190,6 +206,9 @@ section{
     
     .menu-btn {
         display: none;
+    }
+    image {
+        max-width: 50%;
     }
 }
     
@@ -199,20 +218,31 @@ section{
     body {
         max-width: 1100px;
         margin: 0 auto;
+        
     }
     h1 {
         font-size: 3em;
     }
     
     .col-2 {
-        height: 15em;
+        height: 9em;
     }
     
     .col-4 {
         margin-top: .5em;
         height: 29.5em;
+        float: right;
+        padding-left: 2%;
+        padding-right: 2%;
     }
- 
+    h3 {
+        font-size: 2em;
+        
+    }
+    
+    .col-10 {
+        margin: 5% 10% 5% 10%;
+    }
 }
 
 
