@@ -24,7 +24,7 @@ img {
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 3em;
+    padding-top: 1em;
 }
 
 h1 {
@@ -49,7 +49,7 @@ p {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 1.2em;
     line-height: inherit;
-    margin: 1em 2em 1em 2em;
+    margin-right: auto;
 
 }
 section{
@@ -139,6 +139,7 @@ section{
     display:block;
     text-align: center;
     align-content: center;
+   
     
 }
 
@@ -152,15 +153,15 @@ section{
 @media only screen and (min-width: 768px) {
    
     .col-t-1 {width: 8.33%;}
-    .col-t-2 {width: 75%;}
+    .col-t-2 {width: 100%;}
     .col-t-3 {width: 25%;}
     .col-t-4 {width: 33.33%;}
     .col-t-5 {width: 41.66%;}
     .col-t-6 {width: 50%;}
     .col-t-7 {width: 58.33%;}
-    .col-t-8 {width: 66.66%;}
-    .col-t-9 {width: 75%;}
-    .col-t-10 {width: 83.33%;}
+    .col-t-8 {width: 60%;}
+    .col-t-9 {width: 60%;}
+    .col-t-10 {width: 60%;}
     .col-t-11 {width: 91.66%;}
     .col-t-12 {width: 100%;}
 }
@@ -169,15 +170,15 @@ section{
 @media only screen and (min-width: 1024px) {
     
     .col-1 {width: 8.33%;}
-    .col-2 {width: 75%;}
+    .col-2 {width: 100%;}
     .col-3 {width: 25%;}
     .col-4 {width: 33.33%;}
     .col-5 {width: 41.66%;}
     .col-6 {width: 50%;}
     .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
+    .col-8 {width: 60%;}
+    .col-9 {width: 60%;}
+    .col-10 {width: 60%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
 }
